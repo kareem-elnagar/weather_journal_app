@@ -1,0 +1,153 @@
+body {
+    display: grid;
+    background: #092b62;
+    background-image: url(https://vistapointe.net/images/cool-blue-5.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height: 100vh;
+    color: #e4850a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder {}
+
+.entry {
+    background: rgba(59, 74, 107, .4);
+}
+
+#entryHolder {}
+
+#date {}
+
+#temp {}
+
+#content {}
+
+.headline {}
+
+.title {}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 320px;
+    background: #0b1e72;
+    color: #e4850a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button {
+    margin: left;
+    width: 800px;
+    height: 100px;
+    background: #0b1e72;
+    color: #e4850a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background: #0b1e72;
+    color: #e4850a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* Style for Placeholder Text*/
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: #e4850a;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #e4850a;
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #e4850a;
+    font-family: 'Oswald', sans-serif;
+}
+
+#headTitle {
+    font-size: 30px
+}
+
+title {
+    color: black;
+    background-color: blue
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+
+.holder_headline {
+    font-size: 50px;
+    display: flex;
+    justify-content: center
+}
+
+.holder_zip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#zip_container {
+    display: flex;
+}
+
+#label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#entryHolder {
+    display: flex;
+    flex-direction: column;
+}
